@@ -4,7 +4,7 @@
 
 | Day | Topic | Status | Support | Evidence |
 |---:|---|---|---|---|
-| 01 | System layers and baseline | not-started | - | - |
+| 01 | System layers and baseline | completed | hints | [Session](../../../../../journal/2026/08/2026-08-19-day-01.md) |
 | 02 | TypeScript reading | not-started | - | - |
 | 03 | Async and errors | not-started | - | - |
 | 04 | Process, streams and JSONL | not-started | - | - |

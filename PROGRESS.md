@@ -4,7 +4,7 @@
 
 | 领域 | 方向 | 等级 | 状态 | 证据 |
 |---|---|---:|---|---|
-| Artificial Intelligence | Agent Foundations | L0 | 计划中 | - |
+| Artificial Intelligence | Agent Foundations | L0 | Day 01 已在提示下完成，等待独立验收 | [Day 01](journal/2026/08/2026-08-19-day-01.md) |
 | Artificial Intelligence | Agent Loop | L0 | 计划中 | - |
 | Artificial Intelligence | Agent Harness | L0 | 计划中 | - |
 | Artificial Intelligence | Agent Runtime | L0 | 计划中 | - |
