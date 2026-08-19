@@ -1,0 +1,23 @@
+name: Lab task
+description: 实现一个可运行、可测试的最小实验
+title: "lab: "
+labels: ["type: lab"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 实验目标
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 最小范围与非目标
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: 测试与失败场景
+    validations:
+      required: true

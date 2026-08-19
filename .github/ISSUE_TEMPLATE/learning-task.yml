@@ -1,0 +1,28 @@
+name: Learning task
+description: 学习一个概念并提供理解证据
+title: "learn: "
+labels: ["type: learning"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 要回答的问题
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 完成证据
+      description: 笔记、实验、测试、故障复现或讲解。
+    validations:
+      required: true
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: 本次不做什么
