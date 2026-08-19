@@ -4,6 +4,10 @@
 
 当前重点是 **Artificial Intelligence → Agent Systems → Tsukiori**。Agent 只是整个知识树中的一条分支，未来可以继续扩展计算机科学、软件工程、数学、产品设计、商业、人文和语言等领域。
 
+## 开始学习
+
+本仓库已经配置成对话式学习系统。第一次使用请打开 [START-HERE](START-HERE.md)；以后在对话中说“继续学习”，导师会根据 [CURRENT](CURRENT.md) 恢复课程位置。
+
 ## 学习系统
 
 ```text
@@ -41,6 +45,9 @@ Learning Lab
 - [长期路线](ROADMAP.md)
 - [全局进度](PROGRESS.md)
 - [AI 使用原则](AI-USAGE.md)
+- [对话式学习入口](START-HERE.md)
+- [当前学习状态](CURRENT.md)
+- [导师与验收协议](learning-system/README.md)
 - [Agent Systems](domains/artificial-intelligence/agent-systems/README.md)
 - [Tsukiori 学习分支](domains/artificial-intelligence/agent-systems/projects/tsukiori/README.md)
 - [学习模板](templates/README.md)
