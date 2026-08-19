@@ -46,6 +46,8 @@ Learning Lab
 - [全局进度](PROGRESS.md)
 - [AI 使用原则](AI-USAGE.md)
 - [对话式学习入口](START-HERE.md)
+- [跨 Agent 学习规范](LEARNING-AGENT-SPEC.md)
+- [学习者配置](LEARNING-CONFIG.md)
 - [当前学习状态](CURRENT.md)
 - [导师与验收协议](learning-system/README.md)
 - [Agent Systems](domains/artificial-intelligence/agent-systems/README.md)

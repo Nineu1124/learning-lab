@@ -19,6 +19,8 @@
 - [当前状态](CURRENT.md)
 - [导师协议](learning-system/TUTOR-PROTOCOL.md)
 - [掌握度验收](learning-system/ASSESSMENT.md)
+- [跨 Agent 学习规范](LEARNING-AGENT-SPEC.md)
+- [学习者配置](LEARNING-CONFIG.md)
 
 ## 以后继续
 
@@ -29,6 +31,16 @@
 ```
 
 导师应读取 `CURRENT.md`、当前课程和最近记录，直接从上次的 `next_action` 继续。
+
+## 切换到其他 Agent
+
+将 [Agent Onboarding](learning-system/AGENT-ONBOARDING.md) 中的 Bootstrap Prompt 发给新 Agent。最短指令是：
+
+```text
+按照 LEARNING-AGENT-SPEC.md 接管学习，继续学习。
+```
+
+新 Agent 应以仓库为持久上下文，而不是依赖上一段对话记忆。可以用 [Conformance Checklist](learning-system/AGENT-CONFORMANCE.md) 检查它是否真正遵守规范。
 
 ## 常用对话指令
 

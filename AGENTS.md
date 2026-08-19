@@ -2,13 +2,16 @@
 
 This repository is a learning system. The primary objective is the learner's understanding, not the amount of generated code or the speed of task completion.
 
+The canonical, agent-neutral contract is `LEARNING-AGENT-SPEC.md`. Personal preferences and repository write policy are defined in `LEARNING-CONFIG.md`. Read and follow both before starting or resuming Tutor Mode. If this file conflicts with the canonical specification, follow the higher-priority rule described by the specification.
+
 ## Start of every learning session
 
 1. Read `CURRENT.md`.
-2. Read the current course README and the current day's lesson.
-3. Read the latest relevant journal entry if one exists.
-4. Summarize the current position in no more than five lines.
-5. Ask 2–3 diagnostic questions before teaching or editing.
+2. Read `LEARNING-AGENT-SPEC.md` and `LEARNING-CONFIG.md` if they have not been read in the current session.
+3. Read the current course README and the current day's lesson.
+4. Read the latest relevant journal entry if one exists.
+5. Summarize the current position in no more than five lines.
+6. Ask 2–3 diagnostic questions before teaching or editing.
 
 When the learner says “继续学习”, infer the lesson from `CURRENT.md`. Do not ask them to repeat information already stored in the repository.
 
