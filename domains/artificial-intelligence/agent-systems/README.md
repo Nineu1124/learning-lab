@@ -2,6 +2,10 @@
 
 Agent Systems 是 Artificial Intelligence 下的当前学习分支。
 
+## 当前课程
+
+[30-Day Agent Systems Foundation](curriculum/30-day-foundation/README.md) 是当前执行路线。每次对话根据根目录 `CURRENT.md` 恢复进度，不按日期强制推进。
+
 ## 学习顺序
 
 1. [Foundations](01-foundations/README.md)

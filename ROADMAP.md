@@ -4,6 +4,8 @@
 
 时间：2026-08-19 至 2026-09-17。
 
+详细逐日课程：[30-Day Agent Systems Foundation](domains/artificial-intelligence/agent-systems/curriculum/30-day-foundation/README.md)。课程按验收推进，如果某个 Day 未通过，可以超过原定日历时间。
+
 ### Week 1：建立地图并读懂一次请求
 
 - 运行并验证 Tsukiori
