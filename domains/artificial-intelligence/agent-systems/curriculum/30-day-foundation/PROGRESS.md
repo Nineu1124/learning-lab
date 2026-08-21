@@ -5,7 +5,7 @@
 | Day | Topic | Status | Support | Evidence |
 |---:|---|---|---|---|
 | 01 | System layers and baseline | completed | hints | [Session](../../../../../journal/2026/08/2026-08-19-day-01.md) |
-| 02 | TypeScript reading | not-started | - | - |
+| 02 | TypeScript reading | completed | guided | [Session](../../../../../journal/2026/08/2026-08-21-day-02.md) · [Lab](../../labs/typescript-basics/README.md) |
 | 03 | Async and errors | not-started | - | - |
 | 04 | Process, streams and JSONL | not-started | - | - |
 | 05 | Git, pnpm, Turborepo and tests | not-started | - | - |

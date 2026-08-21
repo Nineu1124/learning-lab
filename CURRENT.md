@@ -1,12 +1,12 @@
 ---
 course: agent-systems-30-day-foundation
-day: 02
-lesson: week-01-foundations.md#day-02
+day: 03
+lesson: week-01-foundations.md#day-03
 status: ready
 mastery_target: L1
 issue: https://github.com/Nineu1124/learning-lab/issues/1
 planned_branch: main
-last_session: journal/2026/08/2026-08-19-day-01.md
+last_session: journal/2026/08/2026-08-21-day-02.md
 last_commit: recorded-with-session
 ---
 
@@ -14,17 +14,18 @@ last_commit: recorded-with-session
 
 ## 当前目标
 
-完成 Day 02：诊断并补齐阅读 Tsukiori 所需的 TypeScript 最小基础。
+完成 Day 03：理解 async/await、Promise 执行顺序和错误传播。
 
 ## 已有证据
 
-- Day 01 已完成，结果为 `Pass with support`。
-- 学习者能够区分 API/API Key、Model/Tool Calling/Agent Loop、Runtime Environment/Agent Runtime。
-- Harness 与 Agent Runtime、Tsukiori 与 Host 的边界经过导师纠正，尚未独立通过，因此 Agent Foundations 保持 L0。
+- Day 02 已完成，结果为 `Pass with support`，支持程度为 `guided`。
+- 学习者能读写最小 interface、literal union、discriminated union、function 和 class，并观察、解释、修正一条 TS2322 类型错误。
+- 学习者知道 TypeScript 类型会在编译后擦除，也能解释判别字段负责选择分支、`return` 负责函数结果。
+- class/import/export 与迁移题仍接受过提示，因此掌握等级保持 L0，等待后续独立检索。
 
 ## Next Action
 
-进入 Day 02，通过三个小型 TypeScript 片段诊断当前阅读能力。暂时不要修改 Tsukiori 正式代码。
+开始 Day 03：先给出一个 async/await 执行顺序预测题，学习者回答后再运行。
 
 ## Blockers
 

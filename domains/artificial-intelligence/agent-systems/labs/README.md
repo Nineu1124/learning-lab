@@ -2,6 +2,10 @@
 
 Lab 用于验证一个最小概念，不追求产品完整度。
 
+## 基础 Lab
+
+- [typescript-basics](typescript-basics/README.md)：Day 02 的 TypeScript 类型、函数、class 和编译错误实验。
+
 ## 顺序
 
 1. `streaming-jsonl`
