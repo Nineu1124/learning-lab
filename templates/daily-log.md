@@ -1,19 +1,15 @@
-# YYYY-MM-DD · Topic
+# Compact Daily Note · YYYY-MM-DD
 
-## 今天的目标
+本模板只用于没有正式 Course Day 的轻量自学笔记。它不能单独证明 Day completed、Capability 晋级或 Retention；对话式课程和每日正式提交必须使用 [Session Record](session-record.md)。
 
-## 我先前的理解
+## 一个可验证目标
 
-## 今天学到了什么
+## 闭卷回忆了什么
 
-## 我实际运行或实现了什么
+## 实际练习与 Evidence
 
-## 我故意制造并修复的错误
+## 一个高价值错误或边界
 
-## AI 完成了什么
+## 我自己的总结
 
-## 我可以独立解释什么
-
-## 仍然不理解的问题
-
-## 明天的一个最小任务
+## 下一次一个最小动作

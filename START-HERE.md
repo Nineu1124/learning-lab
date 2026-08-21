@@ -1,6 +1,6 @@
 # Start Here
 
-这个仓库支持以 Codex 对话为主的学习方式。仓库保存课程、上下文、练习和证据；对话负责讲解、提问、提示和验收。
+这个仓库支持以 AI Agent 对话为主的学习方式。仓库保存课程、上下文、练习和证据；对话负责讲解、提问、提示和验收。
 
 ## 第一次开始
 
@@ -8,17 +8,21 @@
 
 ```text
 开始学习。
-请先读取 AGENTS.md、CURRENT.md 和当前 Day 的课程文件。
-不要直接写代码。先告诉我今天的目标、预计时间和完成标准，
-然后问我 3 个诊断问题。
+请按顺序完整读取 LEARNING-AGENT-SPEC.md、LEARNING-CONFIG.md、
+AGENTS.md、CURRENT.md、learning-system/LEARNING-METHOD.md、
+REVIEW-QUEUE.md、当前 Day 和最近 Journal。
+不要直接写代码。先告诉我 provisional goal、预计时间、完成标准和到期项目，
+然后进行到期闭卷复习与诊断，再确认或缩小今日目标。
 ```
 
-当前从 Day 01 开始。课程入口：
+当前课次以 [CURRENT](CURRENT.md) 为准。课程入口：
 
 - [30 天 Agent Systems 基础课程](domains/artificial-intelligence/agent-systems/curriculum/30-day-foundation/README.md)
 - [当前状态](CURRENT.md)
 - [导师协议](learning-system/TUTOR-PROTOCOL.md)
-- [掌握度验收](learning-system/ASSESSMENT.md)
+- [统一学习方法](learning-system/LEARNING-METHOD.md)
+- [能力、保持与验收](learning-system/ASSESSMENT.md)
+- [间隔复习队列](REVIEW-QUEUE.md)
 - [跨 Agent 学习规范](LEARNING-AGENT-SPEC.md)
 - [学习者配置](LEARNING-CONFIG.md)
 
@@ -30,7 +34,7 @@
 继续学习
 ```
 
-导师应读取 `CURRENT.md`、当前课程和最近记录，直接从上次的 `next_action` 继续。
+导师应读取 `CURRENT.md`、`REVIEW-QUEUE.md`、当前课程和最近记录，先完成到期闭卷复习，再从上次的 `next_action` 继续。
 
 ## 切换到其他 Agent
 
@@ -46,7 +50,7 @@
 
 | 你说 | 导师应该做什么 |
 |---|---|
-| `开始 Day 03` | 读取 Day 03，先诊断再教学 |
+| `开始 Day 03` | 读取状态和 Queue，给 provisional goal，先复习与诊断，再确认目标 |
 | `继续学习` | 从 `CURRENT.md` 恢复上下文 |
 | `提示一级` | 只给方向，不给答案 |
 | `提示二级` | 指向相关文件或概念 |
@@ -55,25 +59,27 @@
 | `开始实验` | 先让你预测，再做最小实现 |
 | `验收 Day 05` | 使用当天标准进行口头与实践验收 |
 | `复习本周` | 随机提问、反例和迁移题，不讲新内容 |
-| `记录进度` | 更新 Journal、Evidence 和 `CURRENT.md` |
-| `结束本次学习` | 做检索练习、记录证据、设置下一步 |
+| `记录进度` | 更新 Journal、Review Queue、Evidence 和 `CURRENT.md` |
+| `结束本次学习` | 做检索与迁移验收，更新 Queue，记录证据并设置下一步 |
 
 ## 一次标准会话
 
-建议每次 60–120 分钟：
+默认 90 分钟，可按状态缩小范围：
 
 ```text
-5 分钟   恢复上下文
-10 分钟  诊断已有理解
-20 分钟  讲解一个概念
-30 分钟  阅读代码或完成最小实验
-15 分钟  测试、故障或反例
-10 分钟  本人复述和验收
-5 分钟   记录进度与下一步
+5 分钟   可验证目标
+10 分钟  到期闭卷复习
+15 分钟  诊断与最小输入
+40 分钟  Prediction 与刻意练习
+10 分钟  纠错与立即变式
+5 分钟   Transfer 与本人总结
+5 分钟   调度复习、记录证据与下一步
 ```
 
-时间不足时缩小学习问题，不跳过预测、验证和复述。
+精确时间不是通过标准。时间不足时缩小学习问题，不跳过预测、验证、纠错、变式和复述，也不以熬夜换进度。
 
 ## 最重要的规则
 
 对话结束前，你必须亲自给出一段总结。导师可以纠错，但不能替你写“我学会了什么”。
+
+正式记录使用 [Session Record](templates/session-record.md)。Session Result、Capability Level 与 Retention Status 分开判断；未来 Agent 必须根据 [Review Queue](REVIEW-QUEUE.md) 做延迟复测。

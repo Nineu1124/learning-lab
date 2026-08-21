@@ -12,11 +12,13 @@
 
 ## 每日记录
 
-使用 `templates/daily-log.md`。
+正式 Course Day 使用 `templates/session-record.md`；轻量自学才使用 `templates/daily-log.md`。每次新课前处理 `REVIEW-QUEUE.md` 中的到期项目。
 
 ## 周末复盘
 
 - 我能独立解释什么？
 - 哪些内容仍然只是 AI 的解释？
 - 哪个实验失败了，证据是什么？
+- 哪些内容在延迟、闭卷复测后仍能完成？
+- 本周错误主要属于 concept、retrieval、transfer、execution 还是 environment？
 - 下周只保留哪三个最重要任务？

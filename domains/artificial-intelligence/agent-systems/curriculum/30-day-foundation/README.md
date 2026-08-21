@@ -27,18 +27,21 @@
 ## 每个 Day 的使用方法
 
 1. 在对话中说 `开始 Day XX`。
-2. 导师读取 `AGENTS.md`、`CURRENT.md` 和当天内容。
-3. 先回答诊断问题，不查资料。
-4. 完成当天最小实践。
-5. 回答验收问题。
-6. 自己写总结。
-7. 说 `结束本次学习`，由导师协助更新记录。
+2. 导师读取规范、`CURRENT.md`、`REVIEW-QUEUE.md` 和当天内容。
+3. 先闭卷完成影响当前课程的到期复习，再回答诊断问题。
+4. 写明今日可验证 Outcome 和 Definition of Done。
+5. 先 Prediction，再完成当天最小实践。
+6. 分析一个错误或边界，修正后立即完成变式。
+7. 回答 Explain、Do、Fail、Prove、Transfer 验收。
+8. 自己写 3–8 句总结。
+9. 说 `结束本次学习`，由导师按正式模板更新 Journal、Review Queue 和进度。
 
 ## 进度规则
 
 - 未完成 Practice 和 Evidence，不进入下一 Day。
 - 在大量提示下完成可进入下一 Day，但对应能力仍保持原等级。
-- 每七个 Day 进行一次不学习新知识的检索复习。
+- 每次优先处理到期复习；每七个课次再进行一次不学习新知识的限时、闭卷、混合综合检验。
+- Day completed、Capability Level 与 Retention Status 分开；等级提升需要之后的闭卷、Hint 0 变式证据。
 - 学习者可以休息，但不能通过补写日志假装完成实践。
 
 ## 代码仓库边界

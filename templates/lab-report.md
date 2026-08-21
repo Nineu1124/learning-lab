@@ -6,11 +6,21 @@
 
 ## 运行方式
 
+## 运行前 Prediction
+
 ## 关键设计
 
-## 测试
+## Expected / Observed / Exit Code
 
-## 失败实验
+## 测试与 Evidence
+
+## 失败、边界或 Execution Incident
+
+## Correct Rule 与 Immediate Variant
+
+## Review Queue Update
+
+只记录新增或更新的 Review ID；当前日期和 lifecycle 以根目录 `REVIEW-QUEUE.md` 为准。
 
 ## AI 的作用
 

@@ -7,22 +7,15 @@
 - `AGENTS.md`：约束 Codex 的导师行为。
 - `CURRENT.md`：跨对话保存当前课程、Day、证据和下一步。
 - `START-HERE.md`：学习者入口与常用对话指令。
+- `LEARNING-METHOD.md`：目标、主动回忆、练习、纠错、变式、间隔复习和周测的统一方法。
+- `REVIEW-QUEUE.md`：根目录中的跨 Session 到期复习状态。
 - `TUTOR-PROTOCOL.md`：一节课的详细交互方式。
-- `ASSESSMENT.md`：掌握度与验收标准。
+- `ASSESSMENT.md`：Session Result、Capability Level、Retention Status 与验收标准。
 - `AGENT-ONBOARDING.md`：切换 Agent 时使用的启动提示词。
 - `AGENT-CONFORMANCE.md`：验证 Agent 是否遵守规范的情景测试。
 - `journal/`：按时间记录真实学习过程。
 - `domains/`：整理后的知识、实验、案例和项目。
 
-## State transition
+Canonical state machine、允许的回退和 Day 完成条件只在 [Learning Agent Specification](../LEARNING-AGENT-SPEC.md#5-session-state-machine) 中维护，避免多个入口漂移。
 
-```text
-ready
-→ diagnosing
-→ learning
-→ practicing
-→ checking
-→ completed
-```
-
-某个 Day 未通过验收时保持 `checking` 或回到 `practicing`，不因为日期变化自动进入下一天。
+执行顺序见 [Learning Method](LEARNING-METHOD.md)，每日证据使用 [Session Record](../templates/session-record.md)。某个 Day 未通过验收时保持 `checking` 或回到 `practicing`，不因为日期变化自动进入下一天。
